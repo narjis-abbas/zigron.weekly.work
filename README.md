@@ -1,1 +1,2 @@
-my project 
+#Zigron Full Course Learning Journet🚀
+Welcome to my official repository for the Zigron Course! This repo serve as a complete portfolio of my learning, assigments, and practical modules during the program.
