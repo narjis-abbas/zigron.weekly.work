@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    line-height: 1.6;
+}
+
+/* ---------- Header ---------- */
+header {
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #2b5876, #4e4376);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* ---------- Layout ---------- */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #2b5876;
+}
+
+/* ---------- Form ---------- */
+#student-form {
+    width: 280px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2b5876;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: #2b5876;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4e4376;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ---------- Table ---------- */
+table {
+    width: 460px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e2e7e6;
+}
+
+th {
+    background-color: #e2e7e6;
+}
+
+tbody tr:hover {
+    background-color: #f4f6f8;
+}
+
+.delete-btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    background-color: #c0392b;
+}
+
+.delete-btn:hover {
+    background-color: #e74c3c;
+}
+
+.edit-btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    background-color: #180d7e;
+}
+
+.edit-btn:hover {
+    background-color: #8059ba;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #161e28;
+}
+
+/* ---------- Phones ---------- */
+@media (max-width: 700px) {
+    #student-form,
+    table {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
